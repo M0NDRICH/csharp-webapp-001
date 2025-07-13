@@ -43,6 +43,8 @@ namespace GameStore.Frontend.Clients
                 Id = games.Count + 1,
                 Name = game.Name,
                 Genre = genre.Name,
+                Price = game.Price,
+                ReleaseDate = game.ReleaseDate,
             };
 
             games.Add(gameSummary);
